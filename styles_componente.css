@@ -121,7 +121,7 @@ header {
 .font {
   font-family: "Arimo", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
   font-size: 11px;
   color: var(--cor-text)
@@ -148,11 +148,11 @@ header {
   cursor: pointer;
   font-family: "Arimo", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
   font-size: 14pt;
   color: var(--cor-click)
-  transition: 0.5s;
+  transition:0.5s;
 }
 
 #componentes {
@@ -173,7 +173,7 @@ header {
 h3 {
   font-family: "Arimo", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
   font-size: 14px;
   color: var(--cor-text);
@@ -184,7 +184,7 @@ h3 {
 p {
   font-family: "Arimo", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
   font-size: 11px;
   color: var(--cor-text);
@@ -312,7 +312,7 @@ button {
 .p_lable {
   font-family: "Arimo", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
   font-size: 11px;
   color: white;
