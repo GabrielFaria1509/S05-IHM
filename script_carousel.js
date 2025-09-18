@@ -11,7 +11,6 @@ images.forEach(src => {
   card.classList.add('card');
   card.innerHTML = `
     <img src="${src}" alt="Imagem do carrossel">
-    <div class="info"><p>Informação sobre a imagem</p></div>
   `;
   carousel.appendChild(card);
 });
