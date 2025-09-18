@@ -55,7 +55,7 @@ class AulasComponent extends HTMLElement {
                 </div> 
               </div>
             `;
-          }).join('')}S
+          }).join('')}
         </div>
       `;
     }
