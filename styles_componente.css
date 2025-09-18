@@ -309,6 +309,18 @@ button {
   border-radius: 500px;
 }
 
+.nota-baixa{  /* classe para nota baixa */
+  background-color: #dc3545;
+
+}
+
+.nota-media{     /* classe para nota media*/
+  background-color: #fd7e14;
+}
+
+.nota-alta{     /* classe para nota alta */
+  background-color: #28a745;
+}
 .p_lable {
   font-family: "Arimo", sans-serif;
   font-optical-sizing: auto;

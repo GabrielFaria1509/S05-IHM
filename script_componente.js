@@ -4,6 +4,19 @@ class AulasComponent extends HTMLElement {
       this.attachShadow({ mode: 'open' });
       this.hoje = "ter";
     }
+
+    getNotaClass(nota){             //Função para retornar a classe CSS com base na nota
+      //interage com o arquivo styles_componente.css
+      const notaNum = parseFloat(nota);
+
+      if (notaNum < 6) {
+        return 'nota-baixa';
+      } else if (notaNum >= 6 && notaNum < 8) {
+        return 'nota-media';
+      } else {
+        return 'nota-alta';
+      }
+    }
   
     connectedCallback() {
       this.loadData();
@@ -38,11 +51,11 @@ class AulasComponent extends HTMLElement {
                 <p class="p">Local e Horário: <b>${a.local} - ${a.horario}</b></p>
                 <div class="lables">
                   <div class="lable-frequencia p_lable">FALTAS: <b>${a.frequencia}</b></div>
-                  <div class="lable-nota p_lable">CR: <b>${a.nota}</b></div>
-                </div>
+                  <div class="lable-nota${this.getNotaClass(a.nota)} p_lable">CR: <b>${a.nota}</b></div>
+                </div> 
               </div>
             `;
-          }).join('')}
+          }).join('')}S
         </div>
       `;
     }
