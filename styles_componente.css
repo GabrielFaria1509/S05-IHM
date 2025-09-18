@@ -29,7 +29,7 @@ header {
   height: 35px;
   top: 0px;
   left: 0px;
-  rigth: 0px;
+  right: 0px;
 }
 
 #menu {
@@ -67,7 +67,7 @@ header {
   background-color: white;
   top: 0px;
   left: 0px;
-  rigth: 0px;
+  right:  0px;
   padding: 15px;
   margin: 20px;
   border-radius: 10px;
@@ -83,7 +83,7 @@ header {
   position: relative;
   top: 0px;
   left: 0px;
-  rigth: 0px;
+  right: 0px;
   margin-top:5px;
 }
 
@@ -151,8 +151,8 @@ header {
   font-weight: weight;
   font-style: normal;
   font-size: 14pt;
-  color: var(--cor-click)
-  transition:0.5s;
+  color: var(--cor-click);
+  transition: 0.5s;
 }
 
 #componentes {
@@ -160,7 +160,7 @@ header {
   background-color: white;
   top: 0px;
   left: 0px;
-  rigth: 0px;
+  right : 0px;
   padding: 15px;
   margin: 20px;
   border-radius: 10px;
@@ -254,7 +254,7 @@ button {
   background-color: white;
   top: 0px;
   left: 0px;
-  rigth: 0px;
+  right: 0px;
   padding: 15px;
   margin: 20px;
   border-radius: 10px;
