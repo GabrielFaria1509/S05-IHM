@@ -1,8 +1,8 @@
 const carousel = document.querySelector('.carousel');
 const images = [
-  'img/img1.jpg',
-  'img/img2.jpg',
-  'img/img3.jpg'
+  'imagens/img1.jpg',
+  'imagens/img2.jpg',
+  'imagens/img3.jpg'
 ];
 
 // Criar os cards dinamicamente
