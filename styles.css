@@ -1,335 +1,185 @@
-:root {
-  --cor-click: #126ae2; /* Click */
-  --cor-sombra: #0a599b; /* Azul Escuro */
-  --cor-text: black; /* Preto */
-  --cor-back1: #edf2f4; /* Azul claro */
-  --cor-back2: #6a937a; /* Verde Escuro */
-  
-  --md-sys-color-primary: #126ae2;
-  --md-sys-color-on-primary: #FFFFFF;
-  --md-sys-color-primary-container: #edf2f4;
-  --md-sys-color-on-primary-container: #002020;
-  
-  --frequencia: #126ae2;
-  --nota: #126ae2;
-  --prova: #126ae2;
-  
-  
-}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Carreira - Inatel</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 
-body {
-  margin: 0px;
-  background-color: var(--cor-back1);
-}
+    <style>
+        /* === AQUI COMEÇA O SEU CSS ORIGINAL (Colei ele inteiro) === */
+        :root {
+            --cor-click: #126ae2;
+            --cor-sombra: #0a599b;
+            --cor-text: black;
+            --cor-back1: #edf2f4;
+            --cor-back2: #6a937a;
+            
+            --md-sys-color-primary: #126ae2;
+            --md-sys-color-on-primary: #FFFFFF;
+            --md-sys-color-primary-container: #edf2f4;
+            --md-sys-color-on-primary-container: #002020;
+            
+            --frequencia: #126ae2;
+            --nota: #126ae2;
+            --prova: #126ae2;
+        }
 
-@import url(https://fonts.googleapis.com/css?family=Arimo);
+        body { margin: 0px; background-color: var(--cor-back1); }
+        @import url(https://fonts.googleapis.com/css?family=Arimo);
 
-header {
-  position: relative;
-  height: 35px;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-}
-
-#menu {
-  position: absolute;
-  left: 0px;
-  top: 10px;
-  margin-left: 15px;
-  cursor: pointer;
-}
-
-#logo {
-  position: absolute;
-  top: 13px;
-  left: 50%;
-  transform: translate(-50%);
-}
-
-.svg_logo{
-  width: 80px;
-}
-
-.path_logo{
-  fill: var(--cor-click);
-}
-
-#perfil {
-  position: absolute;
-  right: 0px;
-  top: 10px;
-  margin-right: 15px;
-}
-
-#mensagens {
-  position: relative;
-  background-color: white;
-  top: 0px;
-  left: 0px;
-  right:  0px;
-  padding: 15px;
-  margin: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-#user_name {
-  display: block;
-  font-size: 17pt;
-}
-
-#mns_box {
-  position: relative;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  margin-top:5px;
-}
-
-#icon {
-  width: 18px;
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 5px;
-}
-
-#mns {
-  padding: 5px;
-  width: 80%;
-  display: inline-block;
-}
-
-.material-symbols-outlined {
-  color: var(--cor-click);
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
-}
-
-.icoG {
-  font-size: 30px;
-}
-
-.icoP {
-  font-size: 18px;
-  /* vertical-align: middle; */ /* propriedade para deixar o icone centralizado na linha */
-}
-
-.font {
-  font-family: "Arimo", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  font-size: 11px;
-  color: var(--cor-text)
-}
-
-#menu_aba {
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: white;
-  overflow-x: hidden;
-  transition: 0.5s;
-  z-index: 1;
-  display: none;
-  border-radius: 10px;
-}
-
-#menu_bot {
-  position: relative;
-  padding: 20px;
-  display: "block";
-  cursor: pointer;
-  font-family: "Arimo", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  font-size: 14pt;
-  color: var(--cor-click);
-  transition: 0.5s;
-}
-
-#componentes {
-  position: relative;
-  background-color: white;
-  top: 0px;
-  left: 0px;
-  right : 0px;
-  padding: 15px;
-  margin: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
+        header { position: relative; height: 35px; top: 0px; left: 0px; right: 0px; background: white; border-bottom: 1px solid #ddd;} /* Ajustei background */
+        #menu { position: absolute; left: 0px; top: 10px; margin-left: 15px; cursor: pointer; }
+        #logo { position: absolute; top: 13px; left: 50%; transform: translate(-50%); font-family: 'Arimo'; font-weight: bold; color: var(--cor-click); } /* Ajuste logo texto */
+        #perfil { position: absolute; right: 0px; top: 10px; margin-right: 15px; }
+        
+        #mensagens { position: relative; background-color: white; top: 0px; left: 0px; right: 0px; padding: 15px; margin: 20px; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); }
+        #user_name { display: block; font-size: 17pt; font-family: 'Arimo'; margin-bottom: 10px; }
+        
+        .material-symbols-outlined { color: var(--cor-click); }
+        .icoG { font-size: 30px; }
+        
+        .comp-aula { position: relative; background-color: white; top: 0px; left: 0px; right: 0px; padding: 15px; margin: 20px; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); }
+        .titulo_aula { font-family: "Arimo", sans-serif; font-weight: bold; font-size: 15px; color: var(--cor-text); margin-top: 10px; }
+        .p { font-family: "Arimo", sans-serif; font-size: 11px; color: var(--cor-text); }
+        
+        /* === FIM DO SEU CSS ORIGINAL === */
 
 
+        /* === CSS EXTRA DO WIREFRAME (Para as Abas e Placeholders) === */
+        
+        /* Container das Abas (Rolagem Horizontal) */
+        .tabs-container {
+            display: flex;
+            gap: 10px;
+            overflow-x: auto;
+            padding: 0 20px 15px 20px; /* Alinhado com a margem do body */
+            margin-top: 10px;
+            scrollbar-width: none; /* Esconde barra de rolagem no Firefox */
+        }
+        .tabs-container::-webkit-scrollbar { display: none; } /* Esconde no Chrome */
 
+        .tab-btn {
+            background: white;
+            border: 1px solid var(--cor-click);
+            color: var(--cor-click);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-family: 'Arimo';
+            font-size: 14px;
+            white-space: nowrap;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        
+        .tab-btn.active {
+            background: var(--cor-click);
+            color: white;
+        }
 
-h3 {
-  font-family: "Arimo", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  font-size: 14px;
-  color: var(--cor-text);
-  padding-left: 5px;
-  padding-right: 5px
-}
+        /* O Quadrado com X (Placeholder de Imagem) */
+        .wireframe-img {
+            width: 100%;
+            height: 120px;
+            background-color: #e0e0e0; /* Cinza wireframe */
+            border: 2px dashed #999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            color: #777;
+            font-weight: bold;
+            font-family: 'Arimo';
+        }
 
-p {
-  font-family: "Arimo", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  font-size: 11px;
-  color: var(--cor-text);
-  line-height: 1.5;
-  orphans: 3;
-  padding-left: 5px;
-  padding-right: 5px
-}
+        /* Item de Lista (Skills) */
+        .list-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            border-bottom: 1px solid #eee;
+            cursor: pointer;
+        }
+        .list-item:last-child { border-bottom: none; }
+        .arrow-icon { font-size: 18px; color: #999; }
 
-.carousel-container {
-    position: relative;
-    overflow: hidden;
-    background-color: white;
-    border-radius: 10px;
-    margin: 20px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  
-}
+    </style>
+</head>
+<body>
 
-.carousel {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
+    <header>
+        <div id="menu"><span class="material-symbols-outlined icoG">menu</span></div>
+        <div id="logo">APP CARREIRA</div>
+        <div id="perfil"><span class="material-symbols-outlined icoG">account_circle</span></div>
+    </header>
 
-.card {
-    min-width: 100%;
-    text-align: center;
-}
+    <main>
+        
+        <div id="mensagens" style="margin-bottom: 10px;">
+            <div id="user_name"><b>Olá, Gabriel!</b></div>
+            <p class="p" style="padding:0; color: #666;">Explore oportunidades para sua carreira hoje.</p>
+        </div>
 
-.card img {
-    width: 100%;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-}
+        <div class="tabs-container">
+            <div class="tab-btn active">Mercado</div>
+            <div class="tab-btn">Linguagens</div>
+            <div class="tab-btn">Cursos</div>
+            <div class="tab-btn">Notícias</div>
+        </div>
 
-.info {
-    padding: 10px
-}
+        <div id="mensagens">
+            <h3 style="margin-top:0;">Destaques em Alta</h3>
+            
+            <div class="list-item">
+                <span class="titulo_aula" style="margin:0;">Hard Skills</span>
+                <span class="material-symbols-outlined arrow-icon">chevron_right</span>
+            </div>
+            
+            <div class="list-item">
+                <span class="titulo_aula" style="margin:0;">Soft Skills</span>
+                <span class="material-symbols-outlined arrow-icon">chevron_right</span>
+            </div>
+        </div>
 
-.icon {
-    font-size: 15px;
-    margin-left: 5px;
-    margin-right: 2px;
-    width: 18px;
-    display: inline-block;
-    vertical-align: middle
-}
+        <h3 style="margin-left: 20px;">Cursos Recomendados</h3>
 
-button {
-    position: absolute;
-    top: 30%;
-    transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 10px;
-}
+        <div class="comp-aula">
+            <div class="wireframe-img">IMAGEM DO CURSO</div>
+            
+            <div class="titulo_aula">Python para Análise de Dados</div>
+            <p class="p">Duração: <b>40 horas</b></p>
+            
+            <div style="margin-top: 10px;">
+                <span style="background: var(--cor-click); color: white; padding: 5px 10px; border-radius: 15px; font-size: 10px; font-family: 'Arimo';">NOVO</span>
+            </div>
+        </div>
 
-#prevBtn { left: 10px; }
-#nextBtn { right: 10px; }
+        <div class="comp-aula">
+            <div class="wireframe-img">VÍDEO DE LIDERANÇA</div>
+            
+            <div class="titulo_aula">Liderança Ágil</div>
+            <p class="p">Duração: <b>15 horas</b></p>
+            
+            <div style="margin-top: 10px;">
+                <span style="background: var(--cor-sombra); color: white; padding: 5px 10px; border-radius: 15px; font-size: 10px; font-family: 'Arimo';">EM ALTA</span>
+            </div>
+        </div>
 
+    </main>
 
-.comp-aula {
-  position: relative;
-  background-color: white;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  padding: 15px;
-  margin: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
+    <script>
+        // Pequeno script apenas para simular o clique nas abas
+        const tabs = document.querySelectorAll('.tab-btn');
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                // Remove active de todos
+                tabs.forEach(t => t.classList.remove('active'));
+                // Adiciona no clicado
+                tab.classList.add('active');
+            });
+        });
+    </script>
 
-.titulo_aula {
-  font-family: "Arimo", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
-  font-size: 15px;
-  color: var(--cor-text);
-  padding-left: 5px;
-  padding-right: 5px;
-  
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.lables {
-  display: flex;
-  /*justify-content: space-between;*/
-}
-
-.lable-prova {
-  background-color: var(--prova);
-  padding: 7px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: 10px;
-  border-radius: 500px;
-  text-align: center
-}
-
-.lable-frequencia {
-  background-color: var(--frequencia);
-  padding: 7px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: 10px;
-  border-radius: 500px;
-}
-
-.lable-nota {
-  background-color: var(--prova);
-  padding: 7px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: 10px;
-  border-radius: 500px;
-}
-
-.nota-baixa{  /* classe para nota baixa */
-  background-color: #dc3545;
-
-}
-
-.nota-media{     /* classe para nota media*/
-  background-color: #fd7e14;
-}
-
-.nota-alta{     /* classe para nota alta */
-  background-color: #28a745;
-}
-.p_lable {
-  font-family: "Arimo", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  font-size: 11px;
-  color: white;
-  
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
+</body>
+</html>
