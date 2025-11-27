@@ -3,85 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inatel - Mercado de Trabalho</title>
+    <title>Inatel Carreira</title>
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 </head>
-<body style="font-family: Arial, sans-serif; margin: 0; background-color: #f4f4f4;">
+<body>
 
-    <header style="background: white; border-bottom: 2px solid black; padding: 10px 20px; display: flex; justify-content: space-between; align-items: center;">
-        
-        <div id="menu"><span class="material-symbols-outlined" style="font-size: 28px;">menu</span></div>
-        
-        <div id="logo" style="width: 100px;">
-            <svg viewBox="0 0 100 30" style="width: 100%; height: auto;">
-                <text x="0" y="20" font-family="Arial" font-weight="bold" font-size="20">INATEL</text>
-            </svg>
-        </div>
-
-        <div id="perfil"><span class="material-symbols-outlined" style="font-size: 28px;">person</span></div>
+    <header>
+        <span class="material-symbols-outlined icon-btn">menu</span>
+        <h1>Inatel</h1>
+        <span class="material-symbols-outlined icon-btn">person_outline</span>
     </header>
 
-
-    <main style="padding: 20px; max-width: 600px; margin: 0 auto; background: white; min-height: 100vh; border-left: 1px solid #ccc; border-right: 1px solid #ccc;">
-
-        <div style="margin-bottom: 20px;">
-            <h2 style="margin: 0;">Olá, Gabriel!</h2>
-            <p style="color: #666; margin-top: 5px;">Veja as novidades da sua carreira.</p>
+    <main>
+        <div class="card-welcome">
+            <div class="welcome-title">Olá, Gabriel!</div>
+            <div class="market-text">Mercado de trabalho: opções</div>
         </div>
 
-        <div style="display: flex; gap: 10px; overflow-x: auto; padding-bottom: 15px; border-bottom: 1px dashed #999; margin-bottom: 20px;">
-            <button style="padding: 8px 16px; background: #333; color: white; border: 1px solid black; border-radius: 20px; font-weight: bold;">Mercado</button>
-            <button style="padding: 8px 16px; background: white; color: black; border: 1px solid black; border-radius: 20px;">Linguagens</button>
-            <button style="padding: 8px 16px; background: white; color: black; border: 1px solid black; border-radius: 20px;">Cursos</button>
-            <button style="padding: 8px 16px; background: white; color: black; border: 1px solid black; border-radius: 20px;">Notícias</button>
-        </div>
-
-        <section style="margin-bottom: 30px;">
-            <h3 style="margin-bottom: 10px;">Destaques da Área</h3>
-            
-            <div style="border: 2px solid black; padding: 15px; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
-                <span>Hard Skills em Alta</span>
-                <span class="material-symbols-outlined">chevron_right</span>
-            </div>
-
-            <div style="border: 2px solid black; padding: 15px; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
-                <span>Soft Skills Essenciais</span>
-                <span class="material-symbols-outlined">chevron_right</span>
-            </div>
-        </section>
-
-        <section style="margin-bottom: 30px;">
-            <h3 style="margin-bottom: 10px;">Cursos Recomendados</h3>
-
-            <div style="margin-bottom: 20px;">
-                <div style="width: 100%; height: 120px; background: #e0e0e0; border: 2px solid black; display: flex; align-items: center; justify-content: center; margin-bottom: 5px;">
-                    <span style="font-size: 40px; color: #777;">X</span>
-                </div>
-                <div style="font-weight: bold;">Curso de Python Avançado</div>
-                <div style="font-size: 12px; color: #666;">Prévias de vídeos disponíveis</div>
-            </div>
-
-            <div>
-                <div style="width: 100%; height: 120px; background: #e0e0e0; border: 2px solid black; display: flex; align-items: center; justify-content: center; margin-bottom: 5px;">
-                    <span style="font-size: 40px; color: #777;">X</span>
-                </div>
-                <div style="font-weight: bold;">Liderança e Gestão Ágil</div>
-                <div style="font-size: 12px; color: #666;">Novo módulo liberado</div>
-            </div>
-        </section>
-
-        <section>
-            <h3 style="margin-bottom: 10px;">Notícias Rápidas</h3>
-            
-            <div style="display: flex; gap: 10px; align-items: center; border: 1px solid #ccc; padding: 10px; margin-bottom: 10px;">
-                <div style="width: 50px; height: 50px; background: #e0e0e0; border: 1px solid black; display: flex; align-items: center; justify-content: center;">X</div>
-                <div>
-                    <strong>Nova tecnologia no mercado</strong><br>
-                    <small>Resumo da notícia aqui...</small>
-                </div>
-            </div>
-        </section>
+        <carreira-component></carreira-component>
 
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>

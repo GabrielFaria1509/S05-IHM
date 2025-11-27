@@ -1,0 +1,263 @@
+{
+  "linguagens em alta por área": [
+    { "id": 1, "tipo": "skill", "titulo": "Python - Data Science & IA", "icone": "code", "definicao": "Linguagem interpretada, multiparadigma (orientada a objetos, funcional, procedural). Líder em machine learning, análise de dados e automação com bibliotecas como pandas, numpy, scikit-learn." },
+    { "id": 2, "tipo": "skill", "titulo": "JavaScript - Frontend & Fullstack", "icone": "web", "definicao": "Linguagem interpretada, multiparadigma (orientada a objetos, funcional, procedural). Essencial para desenvolvimento web moderno com frameworks React, Vue, Angular e Node.js no backend." },
+    { "id": 3, "tipo": "skill", "titulo": "Java - Backend Corporativo", "icone": "terminal", "definicao": "Linguagem compilada, orientada a objetos. Dominante em sistemas empresariais, microserviços e aplicações Android. Frameworks: Spring, Hibernate, Maven." },
+    { "id": 4, "tipo": "skill", "titulo": "C++ - Sistemas de Performance", "icone": "memory", "definicao": "Linguagem compilada, multiparadigma (procedural, orientada a objetos, genérica). Usada em sistemas embarcados, jogos, sistemas operacionais e aplicações de alta performance." },
+    { "id": 5, "tipo": "skill", "titulo": "Rust - Sistemas Seguros", "icone": "security", "definicao": "Linguagem compilada, multiparadigma (funcional, imperativa). Foco em segurança de memória e performance. Crescente em blockchain, sistemas operacionais e ferramentas de linha de comando." },
+    { "id": 6, "tipo": "skill", "titulo": "Go - Microserviços & Cloud", "icone": "cloud", "definicao": "Linguagem compilada, procedural com recursos funcionais. Criada pelo Google para sistemas distribuídos, APIs REST, microserviços e ferramentas DevOps." },
+    { "id": 7, "tipo": "skill", "titulo": "TypeScript - JavaScript Tipado", "icone": "code", "definicao": "Superset do JavaScript com tipagem estática. Multiparadigma, compilado para JavaScript. Essencial em projetos grandes, oferece melhor manutenibilidade e detecção de erros." },
+    { "id": 8, "tipo": "skill", "titulo": "Lua - Scripting & Games", "icone": "sports_esports", "definicao": "Linguagem interpretada, multiparadigma (procedural, orientada a objetos, funcional). Leve e embarcável, muito usada em jogos, automação e como linguagem de script em aplicações." },
+    { "id": 9, "tipo": "skill", "titulo": "C# - Ecossistema Microsoft", "icone": "desktop_windows", "definicao": "Linguagem compilada, multiparadigma (orientada a objetos, funcional, genérica). Forte no desenvolvimento Windows, web com ASP.NET, jogos com Unity e aplicações empresariais." },
+    { "id": 10, "tipo": "skill", "titulo": "Swift - Desenvolvimento iOS", "icone": "phone_iphone", "definicao": "Linguagem compilada, multiparadigma (orientada a objetos, funcional, procedural). Criada pela Apple para desenvolvimento iOS, macOS, watchOS e tvOS, substituindo Objective-C." }
+  ],
+  "cursos recomendados": [
+    { 
+      "id": 5,
+      "tipo": "card", 
+      "topLabel": "Alura",
+      "titulo": "Python para Data Science", 
+      "subtitulo": "Formação completa com pandas, numpy e matplotlib",
+      "tag1": "60 horas", "classeTag1": "pill-blue",
+      "tag2": "Online", "classeTag2": "pill-green",
+      "imagem": "imagens/alura.webp"
+    },
+    { 
+      "id": 6,
+      "tipo": "card", 
+      "topLabel": "Udemy",
+      "titulo": "React do Zero ao Avançado", 
+      "subtitulo": "Desenvolvimento Frontend moderno com hooks e context",
+      "tag1": "45 horas", "classeTag1": "pill-blue",
+      "tag2": "Online", "classeTag2": "pill-green",
+      "imagem": "imagens/udemy.png"
+    },
+    { 
+      "id": 7,
+      "tipo": "card", 
+      "topLabel": "Coursera",
+      "titulo": "Machine Learning Specialization", 
+      "subtitulo": "Stanford University - Andrew Ng",
+      "tag1": "80 horas", "classeTag1": "pill-blue",
+      "tag2": "Certificado", "classeTag2": "pill-red",
+      "imagem": "imagens/coursera.png"
+    },
+    { 
+      "id": 8,
+      "tipo": "card", 
+      "topLabel": "Rocketseat",
+      "titulo": "Ignite Node.js", 
+      "subtitulo": "Backend completo com TypeScript, Prisma e testes",
+      "tag1": "50 horas", "classeTag1": "pill-blue",
+      "tag2": "Premium", "classeTag2": "pill-red",
+      "imagem": "imagens/rocletseat.png"
+    },
+    { 
+      "id": 9,
+      "tipo": "card", 
+      "topLabel": "Alura",
+      "titulo": "DevOps e Cloud AWS", 
+      "subtitulo": "Deploy, monitoramento e infraestrutura como código",
+      "tag1": "70 horas", "classeTag1": "pill-blue",
+      "tag2": "Online", "classeTag2": "pill-green",
+      "imagem": "imagens/alura.webp"
+    },
+    { 
+      "id": 10,
+      "tipo": "card", 
+      "topLabel": "Udemy",
+      "titulo": "Java Spring Boot Completo", 
+      "subtitulo": "Microserviços, JPA, Security e Deploy na AWS",
+      "tag1": "55 horas", "classeTag1": "pill-blue",
+      "tag2": "Bestseller", "classeTag2": "pill-red",
+      "imagem": "imagens/udemy.png"
+    }
+  ],
+  "notícias": [
+    { 
+      "id": 7, 
+      "tipo": "noticia", 
+      "manchete": "Brasil tem déficit de 797 mil profissionais de TI até 2025", 
+      "resumo": "Associação Brasileira das Empresas de Software (ABES) aponta escassez de talentos em tecnologia. Demanda supera oferta de profissionais qualificados.",
+      "fonte": "G1 Tecnologia",
+      "data": "Março 2024",
+      "imagem": "imagens/g1.png"
+    },
+    { 
+      "id": 8, 
+      "tipo": "noticia", 
+      "manchete": "IA pode criar 97 milhões de novos empregos até 2025", 
+      "resumo": "Relatório do Fórum Econômico Mundial prevê criação líquida de vagas com Inteligência Artificial. Profissões em dados e automação lideram crescimento.",
+      "fonte": "Valor Econômico",
+      "data": "Maio 2024",
+      "imagem": "imagens/valoreconomico.jpg"
+    },
+    { 
+      "id": 9, 
+      "tipo": "noticia", 
+      "manchete": "Trabalho remoto se mantém em 30% das empresas brasileiras", 
+      "resumo": "Pesquisa da FGV mostra consolidação do home office pós-pandemia. Setor de tecnologia lidera adoção do modelo híbrido no país.",
+      "fonte": "Folha de S.Paulo",
+      "data": "Junho 2024",
+      "imagem": "imagens/folhasp.jpg"
+    },
+    { 
+      "id": 10, 
+      "tipo": "noticia", 
+      "manchete": "Setor de tecnologia cresce 13,8% no Brasil em 2024", 
+      "resumo": "Brasscom aponta expansão do mercado de TI brasileiro. Exportações de software e serviços de TI batem recorde histórico no país.",
+      "fonte": "Estadão",
+      "data": "Julho 2024",
+      "imagem": "imagens/valoreconomico.jpg"
+    },
+    { 
+      "id": 11, 
+      "tipo": "noticia", 
+      "manchete": "Salário de desenvolvedor Python cresce 18% no Brasil", 
+      "resumo": "Levantamento da GeekHunter aponta Python como linguagem mais valorizada. Data Science e IA impulsionam demanda por programadores.",
+      "fonte": "InfoMoney",
+      "data": "Agosto 2024",
+      "imagem": "imagens/infomoney.png"
+    },
+    { 
+      "id": 12, 
+      "tipo": "noticia", 
+      "manchete": "Governo lança programa para qualificar 1 milhão em TI", 
+      "resumo": "Ministério da Ciência anuncia iniciativa nacional para formar profissionais em tecnologia. Foco em programação, dados e computação em nuvem.",
+      "fonte": "Agência Brasil",
+      "data": "Setembro 2024",
+      "imagem": "imagens/agenciabrasil.jpg"
+    },
+    { 
+      "id": 13, 
+      "tipo": "noticia", 
+      "manchete": "Mercado de IA generativa deve movimentar R$ 50 bi em 2025", 
+      "resumo": "Estudo da IDC Brasil projeta crescimento explosivo do setor. ChatGPT e ferramentas similares impulsionam demanda por desenvolvedores especializados em IA.",
+      "fonte": "Valor Econômico",
+      "data": "Janeiro 2025",
+      "imagem": "imagens/valoreconomico.jpg"
+    },
+    { 
+      "id": 14, 
+      "tipo": "noticia", 
+      "manchete": "Fintechs brasileiras lideram contratações de desenvolvedores", 
+      "resumo": "Setor financeiro digital cresce 25% e busca profissionais em blockchain, segurança e APIs. Salários chegam a R$ 18 mil para plenos.",
+      "fonte": "InfoMoney",
+      "data": "Janeiro 2025",
+      "imagem": "imagens/infomoney.png"
+    },
+    { 
+      "id": 15, 
+      "tipo": "noticia", 
+      "manchete": "Trabalho remoto permanente em 45% das empresas de tech", 
+      "resumo": "Nova pesquisa mostra consolidação definitiva do home office no setor. Empresas investem em ferramentas colaborativas e gestão à distância.",
+      "fonte": "Folha de S.Paulo",
+      "data": "Janeiro 2025",
+      "imagem": "imagens/folhasp.jpg"
+    },
+    { 
+      "id": 16, 
+      "tipo": "noticia", 
+      "manchete": "Brasil terá 1 milhão de vagas em tecnologia até 2026", 
+      "resumo": "Associação Brasileira de Startups prevê boom de oportunidades. Áreas de cloud computing, cibersegurança e dados lideram demanda.",
+      "fonte": "G1 Tecnologia",
+      "data": "Janeiro 2025",
+      "imagem": "imagens/g1.png"
+    },
+    { 
+      "id": 17, 
+      "tipo": "noticia", 
+      "manchete": "Programa nacional de formação em IA lançado pelo MEC", 
+      "resumo": "Ministério da Educação anuncia parceria com universidades para criar 200 mil especialistas em inteligência artificial até 2027.",
+      "fonte": "Agência Brasil",
+      "data": "Janeiro 2025",
+      "imagem": "imagens/agenciabrasil.jpg"
+    },
+    { 
+      "id": 18, 
+      "tipo": "noticia", 
+      "manchete": "Quantum computing: Brasil investe R$ 2 bi em pesquisa", 
+      "resumo": "Governo federal anuncia maior investimento da história em computação quântica. Parcerias com IBM e Google para formar especialistas na área.",
+      "fonte": "Valor Econômico",
+      "data": "Junho 2025",
+      "imagem": "imagens/valoreconomico.jpg"
+    },
+    { 
+      "id": 19, 
+      "tipo": "noticia", 
+      "manchete": "Salários de engenheiros de software crescem 22% em 2025", 
+      "resumo": "Levantamento da Catho mostra valorização recorde da profissão. Especialistas em IA e cloud computing lideram aumentos salariais.",
+      "fonte": "InfoMoney",
+      "data": "Julho 2025",
+      "imagem": "imagens/infomoney.png"
+    },
+    { 
+      "id": 20, 
+      "tipo": "noticia", 
+      "manchete": "Universidades lançam 50 novos cursos de tecnologia", 
+      "resumo": "MEC aprova expansão de graduações em ciência de dados, cibersegurança e desenvolvimento de jogos para atender demanda do mercado.",
+      "fonte": "Folha de S.Paulo",
+      "data": "Agosto 2025",
+      "imagem": "imagens/folhasp.jpg"
+    },
+    { 
+      "id": 21, 
+      "tipo": "noticia", 
+      "manchete": "Startups brasileiras captam R$ 15 bi em investimentos tech", 
+      "resumo": "Recorde histórico de aportes no setor de tecnologia. Fintechs, healthtechs e edtechs lideram captações no segundo semestre.",
+      "fonte": "G1 Tecnologia",
+      "data": "Setembro 2025",
+      "imagem": "imagens/g1.png"
+    },
+    { 
+      "id": 22, 
+      "tipo": "noticia", 
+      "manchete": "Brasil se torna hub de desenvolvimento de IA na América Latina", 
+      "resumo": "País lidera região em patentes de inteligência artificial. Empresas multinacionais abrem centros de P&D no Brasil.",
+      "fonte": "Agência Brasil",
+      "data": "Outubro 2025",
+      "imagem": "imagens/agenciabrasil.jpg"
+    },
+    { 
+      "id": 23, 
+      "tipo": "noticia", 
+      "manchete": "Mercado de games brasileiro cresce 35% e gera 100 mil empregos", 
+      "resumo": "Setor de jogos digitais bate recorde de faturamento. Demanda por desenvolvedores Unity, Unreal Engine e artistas 3D dispara.",
+      "fonte": "Valor Econômico",
+      "data": "Novembro 2025",
+      "imagem": "imagens/valoreconomico.jpg"
+    },
+    { 
+      "id": 24, 
+      "tipo": "noticia", 
+      "manchete": "Cibersegurança: Brasil forma 50 mil especialistas em 2025", 
+      "resumo": "Programas governamentais e privados aceleram formação de profissionais. Salários médios chegam a R$ 22 mil para especialistas sêniores.",
+      "fonte": "InfoMoney",
+      "data": "Dezembro 2025",
+      "imagem": "imagens/infomoney.png"
+    },
+    { 
+      "id": 25, 
+      "tipo": "noticia", 
+      "manchete": "Trabalho híbrido se consolida: 60% das empresas adotam modelo", 
+      "resumo": "Pesquisa de final de ano mostra que flexibilidade no trabalho veio para ficar. Produtividade aumentou 18% com modelo híbrido.",
+      "fonte": "Folha de S.Paulo",
+      "data": "Dezembro 2025",
+      "imagem": "imagens/folhasp.jpg"
+    }
+  ],
+  "hard/soft skills em alta": [
+    { "id": 15, "tipo": "definicao", "titulo": "Hard Skills", "definicao": "Habilidades técnicas e mensuráveis, adquiridas através de educação formal, treinamentos e experiência prática." },
+    { "id": 16, "tipo": "skill", "titulo": "Python/JavaScript", "icone": "code", "definicao": "Linguagens de programação essenciais para desenvolvimento web, data science e automação de processos." },
+    { "id": 17, "tipo": "skill", "titulo": "Machine Learning", "icone": "psychology", "definicao": "Técnicas de inteligência artificial que permitem sistemas aprenderem e tomarem decisões com base em dados." },
+    { "id": 18, "tipo": "skill", "titulo": "DevOps/Cloud", "icone": "cloud", "definicao": "Práticas de integração entre desenvolvimento e operações, usando plataformas em nuvem como AWS e Azure." },
+    { "id": 19, "tipo": "skill", "titulo": "Banco de Dados", "icone": "storage", "definicao": "Sistemas para armazenar, organizar e gerenciar grandes volumes de informações de forma eficiente (SQL, NoSQL)." },
+    { "id": 20, "tipo": "skill", "titulo": "Cybersecurity", "icone": "security", "definicao": "Práticas e tecnologias para proteger sistemas, redes e dados contra ataques cibernéticos e ameaças digitais." },
+    { "id": 21, "tipo": "definicao", "titulo": "Soft Skills", "definicao": "Habilidades comportamentais e interpessoais que determinam como você trabalha e interage com outros." },
+    { "id": 22, "tipo": "skill", "titulo": "Comunicação Assertiva", "icone": "chat", "definicao": "Capacidade de expressar ideias de forma clara, direta e respeitosa, facilitando o entendimento entre equipes." },
+    { "id": 23, "tipo": "skill", "titulo": "Liderança", "icone": "group", "definicao": "Habilidade de inspirar, motivar e guiar equipes para alcançar objetivos comuns de forma eficaz." },
+    { "id": 24, "tipo": "skill", "titulo": "Trabalho em Equipe", "icone": "groups", "definicao": "Capacidade de colaborar efetivamente com outros profissionais, compartilhando conhecimentos e responsabilidades." },
+    { "id": 25, "tipo": "skill", "titulo": "Resolução de Problemas", "icone": "lightbulb", "definicao": "Habilidade de identificar, analisar e encontrar soluções criativas para desafios complexos no ambiente de trabalho." },
+    { "id": 26, "tipo": "skill", "titulo": "Adaptabilidade", "icone": "sync", "definicao": "Flexibilidade para se ajustar rapidamente a mudanças tecnológicas, processos e ambientes de trabalho dinâmicos." }
+  ]
+}
