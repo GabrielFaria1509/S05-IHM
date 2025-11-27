@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 
     <style>
-        /* === AQUI COMEÇA O SEU CSS ORIGINAL (Colei ele inteiro) === */
+        
         :root {
             --cor-click: #126ae2;
             --cor-sombra: #0a599b;
@@ -43,10 +43,10 @@
         .titulo_aula { font-family: "Arimo", sans-serif; font-weight: bold; font-size: 15px; color: var(--cor-text); margin-top: 10px; }
         .p { font-family: "Arimo", sans-serif; font-size: 11px; color: var(--cor-text); }
         
-        /* === FIM DO SEU CSS ORIGINAL === */
+        
 
 
-        /* === CSS EXTRA DO WIREFRAME (Para as Abas e Placeholders) === */
+      
         
         /* Container das Abas (Rolagem Horizontal) */
         .tabs-container {
@@ -169,7 +169,7 @@
     </main>
 
     <script>
-        // Pequeno script apenas para simular o clique nas abas
+       
         const tabs = document.querySelectorAll('.tab-btn');
         tabs.forEach(tab => {
             tab.addEventListener('click', () => {
